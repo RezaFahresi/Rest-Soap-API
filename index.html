@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Interaction (GET, POST, DELETE)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .response-box {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Interaksi API: GET, POST, DELETE</h1>
+
+    <!-- Tombol untuk melihat hasil GET -->
+    <h2>Data Post (GET Request)</h2>
+    <a href="get.php">Lihat 5 Data Pertama</a>
+
+    <!-- Form untuk POST Request -->
+    <h2>Mengirim Data Baru (POST Request)</h2>
+    <form method="POST" action="post1.php">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="body">Body:</label>
+        <textarea id="body" name="body" required></textarea><br><br>
+        <input type="submit" value="Kirim Data">
+    </form>
+
+    <!-- Tombol untuk melakukan DELETE Request -->
+    <h2>Menghapus Data (DELETE Request)</h2>
+    <a href="delete1.php">Hapus Data dengan ID 1</a>
+
+</div>
+
+</body>
+</html>
