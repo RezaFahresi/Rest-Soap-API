@@ -4,6 +4,7 @@ Tujuan Praktikum:
 3. Mengirim dan menerima data dari API menggunakan metode GET, POST, dan DELETE dengan penekanan pada konsumsi API.
 
 <img width="814" alt="image" src="https://github.com/user-attachments/assets/7a5ab494-1c12-42a9-8a69-ae092e65568d">
+
 Kode ini adalah skrip PHP yang mengambil data postingan dari API https://jsonplaceholder.typicode.com/posts menggunakan cURL dan menampilkannya dalam bentuk tabel di halaman web.
 Inisialisasi cURL: Mengatur URL dan opsi untuk mendapatkan respons.
 Eksekusi: Menjalankan permintaan dan menutup sesi cURL.
@@ -12,6 +13,7 @@ Menampilkan Data: Menggunakan loop foreach untuk menampilkan ID, judul, dan isi 
 Hasilnya adalah halaman yang menunjukkan daftar postingan secara dinamis.
 
 <img width="838" alt="image" src="https://github.com/user-attachments/assets/7d807ab3-7f08-4bc1-b06f-d2c3f7cfef72">
+
 Kode ini adalah skrip PHP yang mengambil dan menampilkan lima postingan teratas dari API https://jsonplaceholder.typicode.com/posts di halaman web. Berikut adalah penjelasan singkat:
 Mengambil Data: Menggunakan file_get_contents() untuk melakukan GET request ke API dan menyimpan respons dalam variabel $response.
 Parsing JSON: Mengonversi data JSON menjadi array PHP dengan json_decode().
@@ -23,6 +25,7 @@ Styling: Menyertakan CSS sederhana untuk mengatur tampilan halaman, termasuk gay
 Hasilnya adalah tampilan daftar lima postingan teratas yang rapi di browser.
 
 <img width="781" alt="image" src="https://github.com/user-attachments/assets/49c89678-619b-4ad1-9f37-5557573863ad">
+
 Kode di atas adalah sebuah skrip PHP yang melakukan permintaan HTTP DELETE ke API menggunakan cURL. Berikut adalah penjelasan singkat tentang bagian-bagian dari kode tersebut:
 HTML Struktur:
 Memuat elemen dasar HTML dengan judul "DELETE Request API".
@@ -59,14 +62,23 @@ Menggunakan kelas CSS untuk membedakan pesan sukses (hijau) dan pesan kesalahan 
 
 hasilnya :
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/33d76712-bf9b-47ea-9ad0-a119abba6d91">
+
 gambar diatas menampilkan index.html yang mana isinya file gabungan dari POST,GET dan DELETE
+
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/4a7dc788-956a-4f7f-a0ae-f0852314a7a8">
+
 gambar diatas menampilkan hasil dari GET
+
 <img width="533" alt="image" src="https://github.com/user-attachments/assets/748ab9bd-91d6-4d16-bc71-bf7a41d48394">
+
 gambar diatas ini hasil dari POST
+
 ![Screenshot 2024-10-01 232100](https://github.com/user-attachments/assets/c28d2680-91e3-4eaa-a30e-79b24665262d)
+
 gambar ini menghasilkan hasik dari POST namun dengan data yg berbeda
+
 <img width="388" alt="image" src="https://github.com/user-attachments/assets/6f620f6d-9a94-410e-8799-ce2ec88ee759">
+
 gambar diatas menampilkan hasil dari DELETE
 
 PERBEDAAN DARI POST GET DAN DELETE?
