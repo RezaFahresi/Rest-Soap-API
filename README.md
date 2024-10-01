@@ -61,6 +61,7 @@ Menggunakan kelas CSS untuk membedakan pesan sukses (hijau) dan pesan kesalahan 
 - Diskusikan skenario kapan harus menggunakan masing-masing metode dalam aplikasi nyata.
 
 hasilnya :
+
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/33d76712-bf9b-47ea-9ad0-a119abba6d91">
 
 gambar diatas menampilkan index.html yang mana isinya file gabungan dari POST,GET dan DELETE
